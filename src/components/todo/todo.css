@@ -1,0 +1,43 @@
+.todo {
+  width: 387px;
+  box-shadow: 0 2px 23px #EDEDED;
+  border-radius: 6px;
+  justify-self: flex-end;
+  padding: 30px 35px 50px;
+}
+
+.todoCaption {
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.59375px;
+  color: #8C96AB;
+}
+
+.todoCaption p {
+  margin: 0;
+}
+
+.todoInputWrapper {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.todoInput {
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #D8DCE6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 15px;
+  max-width: 175px;
+  font-size: 14px;
+}
+
+.todoInput:focus {
+  outline: none;
+}

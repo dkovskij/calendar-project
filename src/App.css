@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 808px;
+  margin: 20px auto 0;
+}
+::-webkit-input-placeholder {
+  color: #BFC4CC;
+}
+
+::-moz-placeholder {
+  color: #BFC4CC;
+}
+
+:-moz-placeholder {
+  color: #BFC4CC;
+}
+
+:-ms-input-placeholder {
+  color: #BFC4CC;
+}

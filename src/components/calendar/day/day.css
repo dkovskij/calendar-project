@@ -1,0 +1,40 @@
+.lastPrevMonth {
+    opacity: 0.5;
+}
+.selected {
+    position: relative;
+}
+.selected::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(0deg, #7ED5FC 0%, #90D9FA 100%);
+    border-radius: 50%;
+}
+.dayWithTodo {
+    color: #AA3434;
+}
+.date {
+    height: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #7C86A2;
+}
+.date > div {
+    height: 100%;
+}
+.dateSpan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
